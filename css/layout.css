@@ -1,0 +1,122 @@
+/* ********* MAIN BLOCK ******** */
+
+body {
+width: 80%;
+margin: auto;
+z-index: 4;
+
+position: relative;
+min-height: 100vh;
+}
+
+.headerElement {
+position: fixed;
+width: 80%;
+z-index: 5;
+top: 0%;
+}
+
+#mainContent {
+background-position-y: relative;
+width: inherit;
+margin: 3% auto;
+z-index: 3;
+}
+
+.divLayout {
+padding: 0 3%;
+margin: 5% 0%;
+
+position: relative;
+}
+
+.footerElement {
+width: 80%;
+bottom: 0;
+margin: 1% auto auto auto;
+}
+/* ******************************* */
+
+/* ******* Saperate Blocks ******* */
+
+.about {
+  margin-top: 8%;
+  padding-top: 3%;
+}
+.about div {
+  padding: 3%;
+}
+
+#tableOfContent {
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+#selectionBased {
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+#selectionBased .image {
+  padding-top: 3%;
+  margin-bottom: 3%;
+}
+
+#selectionBased ul, #tableOfContent p, .info {
+  padding-left: 5%;
+}
+/* ****************************** */
+
+/* tableOfContent */
+.dual {
+  height: 80%;
+  width: 80%;
+  margin: 2% 10%;
+}
+
+/*  Table   */
+th, .projects td {
+    width: 5%;
+    padding: 2%;
+}
+
+.bio td {
+    padding: 1% 1% 1% 5%;
+}
+
+.bio {
+  width: 60%;
+}
+
+/* 2-col (pic and discription) */
+
+.parent {
+    position: relative;
+}
+
+.right {
+    width: 49%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: right;
+    padding-top: inherit;
+}
+
+.left .dependancies {
+  float: left;
+  width: 49%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.dependancies {
+  padding: 3%;
+  padding-top: 0;
+}
+/* **************************** */
+
+nav a {
+  padding: 0 2%;
+}
