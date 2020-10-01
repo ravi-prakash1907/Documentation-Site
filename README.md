@@ -6,4 +6,4 @@ A running preview is available [here](https://ravi-prakash1907.github.io/Documen
 
 # License
 
-This project is made of template purpose and is licensed under the MIT License.
+This project is made of template purpose and is licensed under the GNU License.
